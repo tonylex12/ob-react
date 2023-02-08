@@ -1,16 +1,14 @@
 import logo from './logo.svg';
-import GreetingF from './components/pure/GreetingF';
 import './App.css';
+import TaskListComponent from './components/container/task_list';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        {/* Componente GreetingF */}
-        <GreetingF 
-          name="Tony"
-        />
+        {/* Componente de Listado de Tareas */}
+        <TaskListComponent />
       </header>
     </div>
   );
